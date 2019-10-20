@@ -5,6 +5,7 @@ class IndicesController < ApplicationController
   # GET /indices.json
   def index
     @indices = Index.all
+    @hero_image = "lib/assets/books_with_plants.jpeg"
   end
 
   # GET /indices/1

@@ -1,3 +1,9 @@
 // Place all the styles related to the Indices controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+
+    .hero-image  {
+        background-image: url("/lib/assets/books_with_plants.jpeg")
+    }
+}

@@ -1,8 +1,34 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Indices</h1>
+<head>
+</head>
+<body> 
+  <!-- Hero Image -->
+  <div class="hero-image">
+    <!--<img src="<%= @hero_image %>" />-->
+  </div>
+  <!-- Hero Quote -->
+  <div>
+      <h1>
+      “I have always imagined that Paradise will be a kind of library.”
+      ― Jorge Luis Borges
+      </h1>
+  </div>
+  <!-- Search Bar -->
+  <nav>
+    <h3>Search for your favourite books</h3>
+    <form action="<%= books_path %>" method="GET" class="search-bar">
+        <input type="search" name="search" />
+    </form>
+  </nav>
 
-<table>
+
+
+
+
+</body>
+
+<!-- <table>
   <thead>
     <tr>
       <th colspan="3"></th>
@@ -19,7 +45,7 @@
     <% end %>
   </tbody>
 </table>
-
 <br>
 
 <%= link_to 'New Index', new_index_path %>
+-->
